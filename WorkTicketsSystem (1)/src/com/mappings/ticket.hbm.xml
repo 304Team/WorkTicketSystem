@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+<class name="com.bean.Ticket" table="TICKET">
+    <id name="ticketnumber" column="ticketnumber" type="string"></id>
+    <property name="ipccustomer" column="ipccustomer" type="string"></property>
+    <property name="customercode" column="customercode" type="string"></property>
+    <property name="cause" column="cause" type="string"></property>
+    <property name="summary" column="summary" type="string"></property>
+    <property name="componenttype" column="componenttype" type="string"></property>
+    <property name="ostype" column="ostype" type="string"></property>
+    <property name="identifier" column="identifier" type="string"></property>
+    <property name="ticketstatus" column="ticketstatus" type="string"></property>
+    <property name="lastoccurrence" column="lastoccurrence" type="date"></property>
+    <property name="node" column="node" type="string"></property>
+    <property name="resolution" column="resolution" type="string"></property>
+    <property name="servername" column="servername" type="string"></property>
+    <property name="alertgroup" column="alertgroup" type="string"></property>
+    <property name="component" column="component" type="string"></property>
+    <property name="firstoccurrence" column="firstoccurrence" type="date"></property>
+    <property name="severity" column="severity" type="string"></property>
+</class>
+</hibernate-mapping>
